@@ -1,0 +1,44 @@
+
+!blueprint_grid_columns = 24
+!blueprint_container_size = 950px
+!blueprint_grid_margin  = 10px
+
+// Use this to calculate the width based on the total width.
+// Or you can set !blueprint_grid_width to a fixed value and unset !blueprint_container_size -- it will be calculated for you.
+!blueprint_grid_width = (!blueprint_container_size + !blueprint_grid_margin) / !blueprint_grid_columns - !blueprint_grid_margin
+
+@import blueprint
+@import blueprint/reset.sass
+
++blueprint
+
+.header
+    font-size: 150px
+    font-weight: bold
+    text-align: center
+    width: 100%
+    background-color: black
+    height: 250px
+.links
+    ul
+        margin-top: 10px
+    li
+        font-size: 18px
+        margin-top: 4px
+        list-style-type: none
+
+
+
+.fields
+    span.title
+        font-decoration: bold
+        font-size: 24px
+        display: block
+        margin:0px
+
+    span.field
+        margin-bottom: 10px
+        margin-left: 10px
+        display: block
+
+    

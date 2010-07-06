@@ -1,0 +1,31 @@
+%html
+    %head
+        %title
+            Unijacket.com
+        
+        %link{ :href => "/stylesheets/compiled/screen.css", :rel => "stylesheet", :media => "screen, projection", :type => "text/css" }
+        %link{ :href => "/stylesheets/compiled/print.css", :rel => "stylesheet", :media => "print", :type => "text/css" }
+        :plain
+            <!--[if IE]><link rel="stylesheet" href="/stylesheets/compiled/ie.css" type="text/css" media="screen, projection"><![endif]-->
+        %link{ :href => "/images/sky/common/favicon.ico", :rel => "shortcut icon", :type=>"image/x-icon" }    
+    %body
+        .header
+            {unijacket}
+                    
+        .container
+
+            .links.span-6
+                %ul
+                    %li 
+                        =link_to 'Who What Where', :action => 'index'
+                    %li 
+                        =link_to 'RSVP', :action => 'rsvp'
+                    %li 
+                        =link_to 'Wedding Registry', :action => 'registry'
+                    %li
+                        =link_to 'About', :action => 'about'
+                    -#%li =link_to 'Photos', :action => 'photos'
+            .content.span-18.last
+                =yield
+            .footer.span-24.last
+        
