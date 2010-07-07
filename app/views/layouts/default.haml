@@ -9,9 +9,9 @@
             <!--[if IE]><link rel="stylesheet" href="/stylesheets/compiled/ie.css" type="text/css" media="screen, projection"><![endif]-->
         %link{ :href => "/images/sky/common/favicon.ico", :rel => "shortcut icon", :type=>"image/x-icon" }    
     %body
-        .header
-            {unijacket}
-                    
+        %div{:class => "#{@header_class} header" }
+            &nbsp;
+            
         .container
 
             .links.span-6
