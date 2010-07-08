@@ -4,10 +4,11 @@
             Unijacket.com
         
         %link{ :href => "/stylesheets/compiled/screen.css", :rel => "stylesheet", :media => "screen, projection", :type => "text/css" }
-        %link{ :href => "/stylesheets/compiled/print.css", :rel => "stylesheet", :media => "print", :type => "text/css" }
-        :plain
-            <!--[if IE]><link rel="stylesheet" href="/stylesheets/compiled/ie.css" type="text/css" media="screen, projection"><![endif]-->
-        %link{ :href => "/images/sky/common/favicon.ico", :rel => "shortcut icon", :type=>"image/x-icon" }    
+        -#
+            %link{ :href => "/stylesheets/compiled/print.css", :rel => "stylesheet", :media => "print", :type => "text/css" }
+            :plain
+                <!--[if IE]><link rel="stylesheet" href="/stylesheets/compiled/ie.css" type="text/css" media="screen, projection"><![endif]-->
+            %link{ :href => "/images/sky/common/favicon.ico", :rel => "shortcut icon", :type=>"image/x-icon" }    
     %body
         %div{:class => "#{@header_class} header" }
             &nbsp;
