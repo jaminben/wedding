@@ -1,7 +1,9 @@
+require 'rubygems'
+
 begin
   require File.join(File.dirname(__FILE__), 'lib', 'haml') # From here
 rescue LoadError
-  require 'haml' # From gem
+  gem 'haml', ' = 2.2.4'
 end
 
 # Load Haml and Sass
