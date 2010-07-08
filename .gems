@@ -1,2 +1,3 @@
+rails --version '= 2.3.4'
 compass --version '= 0.8.17'
 haml --version '>=2.2.4'
