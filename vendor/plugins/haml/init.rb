@@ -1,5 +1,5 @@
 require 'rubygems'
-gem 'haml', ' = 2.2.4'
+gem 'haml'
 
 
 # Load Haml and Sass
