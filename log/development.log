@@ -4246,3 +4246,127 @@ Processing HomeController#rsvp (for 127.0.0.1 at 2010-07-08 03:52:22) [GET]
 Rendering template within layouts/default
 Rendering home/rsvp
 Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/rsvp]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-18 14:13:52) [GET]
+Rendering template within layouts/default
+Rendering home/index
+Completed in 38ms (View: 37, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:13:54) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+
+ActionView::TemplateError (Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #33 of app/views/home/registry.haml:
+30:             Sunlight Foundation
+31:     
+32: %h3
+33:    If you are feeling particularly adventurous it is possible to buy something from REI, and have 4% of the proceeds donated to one of our charities (double dip, if you will).  Now this is not a task for the faint of heart, since the process is complicated, and somewhat confusing.  But here it is :-) 
+34:         
+35:     %ol
+36:         %li
+
+    app/views/home/registry.haml:33
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:700:in `render_tag'
+    haml (2.2.4) lib/haml/precompiler.rb:204:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    compass (0.8.17) lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (55.7ms)
+Rendered rescues/_request_and_response (14.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:14:18) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#rsvp (for 127.0.0.1 at 2010-08-18 14:14:35) [GET]
+Rendering template within layouts/default
+Rendering home/rsvp
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/rsvp]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-18 14:14:37) [GET]
+Rendering template within layouts/default
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:14:39) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:16:40) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:16:46) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:17:46) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:18:20) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:18:46) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:18:59) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:19:22) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:19:48) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:20:47) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 84ms (View: 82, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 14:20:49) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/registry]

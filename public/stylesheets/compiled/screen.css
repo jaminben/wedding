@@ -1061,12 +1061,16 @@ textarea {
   margin-top: 4px;
   list-style-type: none; }
 
-/* line 47, ../../../app/stylesheets/screen.sass */
+/* line 45, ../../../app/stylesheets/screen.sass */
+.registry_items li {
+  padding: 5px; }
+
+/* line 49, ../../../app/stylesheets/screen.sass */
 .fields span.title {
   font-decoration: bold;
   font-size: 24px;
   display: block; }
-/* line 53, ../../../app/stylesheets/screen.sass */
+/* line 55, ../../../app/stylesheets/screen.sass */
 .fields span.field {
   margin-bottom: 10px;
   margin-left: 10px;
