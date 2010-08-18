@@ -4394,3 +4394,55 @@ Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 15:12:25) [GET]
 Rendering template within layouts/default
 Rendering home/registry
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 15:14:54) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 15:15:59) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 15:17:07) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+
+ActionView::TemplateError (Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 4 spaces.) on line #20 of app/views/home/registry.haml:
+17:     %h3
+18:         For the adventurous
+19: 
+20:    .box
+21:         %p
+22:             If you are feeling particularly adventurous it is possible to buy something from REI, and have 4% of the proceeds donated to one of our charities (double dip, if you will).  Now this is not a task for the faint of heart, since the process is complicated, and somewhat confusing.  But here it is :-) 
+23: 
+
+    app/views/home/registry.haml:20
+    haml (2.2.4) lib/haml/precompiler.rb:141:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `instance_eval'
+    haml (2.2.4) lib/haml/precompiler.rb:123:in `tabs'
+    haml (2.2.4) lib/haml/precompiler.rb:944:in `block_opened?'
+    haml (2.2.4) lib/haml/precompiler.rb:311:in `push_plain'
+    haml (2.2.4) lib/haml/precompiler.rb:246:in `process_line'
+    haml (2.2.4) lib/haml/precompiler.rb:168:in `precompile'
+    haml (2.2.4) lib/haml/engine.rb:112:in `initialize'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.2.4) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.4) lib/sass/plugin/rails.rb:19:in `process_without_compass'
+    compass (0.8.17) lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (147.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#registry (for 127.0.0.1 at 2010-08-18 15:17:26) [GET]
+Rendering template within layouts/default
+Rendering home/registry
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/registry]

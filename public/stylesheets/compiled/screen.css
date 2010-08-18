@@ -1064,17 +1064,23 @@ textarea {
 /* line 45, ../../../app/stylesheets/screen.sass */
 .registry_items li {
   padding: 5px; }
-/* line 48, ../../../app/stylesheets/screen.sass */
-.registry_items h3 {
+
+/* line 49, ../../../app/stylesheets/screen.sass */
+.registry h3 {
   margin: 0px;
+  margin-top: 10px;
   padding: 0px; }
 
-/* line 53, ../../../app/stylesheets/screen.sass */
+/* line 54, ../../../app/stylesheets/screen.sass */
+.box {
+  padding: 10px; }
+
+/* line 58, ../../../app/stylesheets/screen.sass */
 .fields span.title {
   font-decoration: bold;
   font-size: 24px;
   display: block; }
-/* line 59, ../../../app/stylesheets/screen.sass */
+/* line 64, ../../../app/stylesheets/screen.sass */
 .fields span.field {
   margin-bottom: 10px;
   margin-left: 10px;
